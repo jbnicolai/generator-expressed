@@ -1,0 +1,22 @@
+{
+  "name": "generator-expressjs",
+  "version": "0.0.0",
+  "description": "\"Expressjs generator\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deepak-kapoor/generator-expressjs.git"
+  },
+  "keywords": [
+    "Expressjs"
+  ],
+  "author": "Deepak Kapoor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/deepak-kapoor/generator-expressjs/issues"
+  },
+  "homepage": "https://github.com/deepak-kapoor/generator-expressjs"
+}
