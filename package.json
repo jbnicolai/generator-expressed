@@ -1,22 +1,40 @@
 {
   "name": "generator-expressed",
-  "version": "0.0.0",
-  "description": "Expressjs generator",
-  "main": "index.js",
-  "scripts": {
-    "test": "test"
-  },
+  "version": "0.0.1",
+  "description": "Awesome generator for ExpressJs",
+  "license": "MIT",
+  "main": "app/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/deepak-kapoor/generator-expressed.git"
   },
-  "keywords": [
-    "Expressjs"
-  ],
-  "author": "Deepak Kapoor",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/deepak-kapoor/generator-expressed/issues"
+  "author": {
+    "name": "Deepak Kapoor",
+    "email": "",
+    "url": "http://www.deepakkapoor.net"
   },
-  "homepage": "https://github.com/deepak-kapoor/generator-expressed"
+  "homepage": "https://github.com/deepak-kapoor/generator-expressed",
+  "bugs": "https://github.com/deepak-kapoor/generator-expressed/issues",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "app"
+  ],
+  "keywords": [
+    "ExpressJs"
+  ],
+  "dependencies": {
+    "yeoman-generator": "~0.16.0",
+    "chalk": "~0.4.0"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "peerDependencies": {
+    "yo": ">=1.0.0"
+  }
 }
